@@ -1,0 +1,47 @@
+body{
+background-image: url("back.jpeg");
+background-repeat: no-repeat;
+background-size: 1500px,900px;
+color: rgba(173, 144, 88, 0.698);
+}
+
+h1{
+background-color: rgba(255, 255, 255, 0.185);
+width: 500px;
+box-shadow: 18px 18px 18px rgb(253, 166, 180);
+border: 5px ridge rgb(250, 172, 198);
+animation-name : notsure;
+animation-duration:10; 
+}
+
+@keyframes notsure{
+from{
+box-shadow:18px 18px 18px palevioletred;
+
+}
+to{
+box-shadow:3px 3px 20px  rgb(241, 83, 135);
+}
+
+}
+
+h3{
+    background-color: rgba(255, 255, 255, 0.185);
+    width: 500px;
+    box-shadow: 18px 18px 18px rgb(253, 166, 180);
+    border: 5px ridge rgb(250, 172, 198);
+    animation-name : notsure;
+    animation-duration:10; 
+    color: red;
+    }
+    
+    @keyframes notsure{
+    from{
+    box-shadow:18px 18px 18px palevioletred;
+    
+    }
+    to{
+    box-shadow:3px 3px 20px  rgb(241, 83, 135);
+    }
+    
+    }
